@@ -1,0 +1,114 @@
+{
+    "addresses": [
+      {
+        "id": "1",
+        "city": "Douala",
+        "state": "Yaounde",
+        "street_name": "Rue Duala Manga bell",
+        "country": "Cameroun",
+        "phone": 650202222,
+        "pincode": 9855698981,
+        "userId": "1"
+      },
+      {
+        "id": "2",
+        "city": "Ebolowa",
+        "state": "Yaounde",
+        "street_name": "Rue Martin Paul Samba",
+        "country": "Cameroun",
+        "phone": 650202221,
+        "pincode": 9855698982,
+        "userId": "1"
+      }
+    ],
+    "categories": [
+      {
+        "id": "1",
+        "title": "Shoes"
+      },
+      {
+        "id": "2",
+        "title": "Electronics"
+      }
+    ],
+    "orders": [
+      {
+        "id": "2",
+        "userId": "2"
+      },
+      {
+        "id": "4",
+        "userId": "2"
+      },
+      {
+        "id": "5",
+        "userId": "3"
+      }
+    ],
+    "orders_details": [
+      {
+        "id": "1",
+        "orderId": null,
+        "productId": "2",
+        "quantity": 2
+      },
+      {
+        "id": "2",
+        "orderId": "2",
+        "productId": "1",
+        "quantity": 3
+      }
+    ],
+    "products": [
+      {
+        "id": "1",
+        "title": "PlayStation 4",
+        "image": "image.jpg",
+        "images": [
+          "images1.jpg",
+          "images2.jpg"
+        ],
+        "description": "Appareil de jeux videos",
+        "price": "250",
+        "categoryId": "2"
+      },
+      {
+        "id": "2",
+        "title": "PlayStation 3",
+        "image": "image.jpg",
+        "images": [
+          "images1.jpg",
+          "images2.jpg"
+        ],
+        "description": "Appareil de jeux videos en promo avec 30% de reduction",
+        "price": "190",
+        "categoryId": "1"
+      }
+    ],
+    "users": [
+      {
+        "id": "1",
+        "username": "Johny",
+        "PASSWORD": "ta#ERT",
+        "email": "john.dupond@gmail.com",
+        "fname": "Dupond",
+        "lname": "John",
+        "age": 38,
+        "role": "ADMIN",
+        "photourl": "profil.jpg",
+        "type": "local"
+      },
+      {
+        "id": "2",
+        "username": "Fanny",
+        "PASSWORD": "ta#EYT",
+        "email": "fanita.detombi@gmail.com",
+        "fname": "Etombi",
+        "lname": "Fanita",
+        "age": "38",
+        "role": "USER",
+        "photourl": "profil.jpg",
+        "type": "local"
+      }
+    ]
+  }
