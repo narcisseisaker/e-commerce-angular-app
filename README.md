@@ -25,3 +25,43 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+[Json-server] (https://github.com/typicode/json-server)
+
+## Endpoints
+
+[GET] http://localhost:3000/addresses
+[GET] http://localhost:3000/addresses/:id
+[POST] http://localhost:3000/addresses
+[PUT] http://localhost:3000/addresses/:id
+[DELETE] http://localhost:3000/addresses/:id
+
+[GET] http://localhost:3000/categories
+[GET] http://localhost:3000/categories/:id
+[POST] http://localhost:3000/categories
+[PUT] http://localhost:3000/categories/:id
+[DELETE] http://localhost:3000/categories/:id
+
+[GET] http://localhost:3000/orders
+[GET] http://localhost:3000/orders/:id
+[POST] http://localhost:3000/orders
+[PUT] http://localhost:3000/orders/:id
+[DELETE] http://localhost:3000/orders/:id
+
+[GET] http://localhost:3000/orders_details
+[GET] http://localhost:3000/orders_details/:id
+[POST] http://localhost:3000/orders_details
+[PUT] http://localhost:3000/orders_details/:id
+[DELETE] http://localhost:3000/orders_details/:id
+
+[GET] http://localhost:3000/products
+[GET] http://localhost:3000/products/:id
+[POST] http://localhost:3000/products
+[PUT] http://localhost:3000/products/:id
+[DELETE] http://localhost:3000/products/:id
+
+[GET] http://localhost:3000/users
+[GET] http://localhost:3000/users/:id
+[POST] http://localhost:3000/users
+[PUT] http://localhost:3000/users/:id
+[DELETE] http://localhost:3000/users
